@@ -1,6 +1,6 @@
 # ESLint Config Panemiko
 
-Just some ESLint configuration I use on every project.
+Just some ESLint configuration I use in every project.
 
 ## Install
 
