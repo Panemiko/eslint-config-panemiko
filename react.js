@@ -18,10 +18,11 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["react", "jsx-a11y", "@typescript-eslint"],
+  plugins: ["react", "jsx-a11y", "@typescript-eslint", "simple-import-sort"],
   rules: {
+    "simple-import-sort/imports": "warn",
     "prettier/prettier": [
-      "error",
+      "warn",
       {
         printWidth: 80,
         tabWidth: 2,

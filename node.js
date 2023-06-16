@@ -9,10 +9,11 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["@typescript-eslint"],
+  plugins: ["@typescript-eslint", "simple-import-sort"],
   rules: {
+    "simple-import-sort/imports": "warn",
     "prettier/prettier": [
-      "error",
+      "warn",
       {
         printWidth: 80,
         tabWidth: 2,
