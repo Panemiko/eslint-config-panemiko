@@ -29,7 +29,7 @@ module.exports = {
         trailingComma: "all",
         arrowParens: "always",
         semi: true,
-        endOfLine: "LF",
+        endOfLine: "lf",
       },
     ],
     "react/react-in-jsx-scope": "off",

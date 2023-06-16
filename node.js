@@ -20,6 +20,7 @@ module.exports = {
         trailingComma: "all",
         arrowParens: "always",
         semi: true,
+        endOfLine: "lf",
       },
     ],
     "@typescript-eslint/consistent-type-imports": [
