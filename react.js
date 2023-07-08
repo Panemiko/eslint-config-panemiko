@@ -20,7 +20,6 @@ module.exports = {
   },
   plugins: ["react", "jsx-a11y", "@typescript-eslint", "simple-import-sort"],
   rules: {
-    "simple-import-sort/imports": "warn",
     "prettier/prettier": [
       "warn",
       {
